@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512px" height="512px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 1365330 1365330"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+       <clipPath id="id0">
+        <path d="M313070 313070l739200 0 0 739190 -739200 0 0 -739190z"/>
+       </clipPath>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1863774109248">
+   <rect fill="#2E3E51" x="-20" y="20" width="1365330" height="1365330"/>
+   <g>
+    <g>
+     <polygon fill="#49627F" fill-opacity="0.250980" points="330710,506650 506690,330670 682670,506650 "/>
+     <polygon fill="#49627F" fill-opacity="0.250980" points="1034620,506650 858650,330670 682670,506650 "/>
+    </g>
+    <g>
+     <g>
+      <g clip-path="url(#id0)">
+       <image x="313070" y="313070" width="739200" height="739190" xlink:href="appicon-maskable-192_Images\appicon-maskable-192_ImgID1.png"/>
+      </g>
+     </g>
+     <g>
+      <g>
+       <g>
+        <polygon fill="#577496" points="1034670,1034660 330670,1034660 330670,330670 506650,506650 682630,330670 858610,506650 1034650,330680 "/>
+       </g>
+      </g>
+     </g>
+    </g>
+    <g>
+     <path fill="#FAFAFA" d="M862840 640590c11450,-9150 28140,-7270 37290,4170 9130,11450 7270,28140 -4180,37290l-107430 85950 107430 85950c11450,9150 13310,25840 4180,37280 -9150,11450 -25840,13330 -37290,4180l-132970 -106390c-1660,-1270 -3190,-2760 -4540,-4450 -9150,-11450 -7270,-28160 4170,-37310l133340 -106670z"/>
+     <path fill="#FAFAFA" d="M512720 848000l106670 0 0 -53330 -108040 -20c-29160,-1070 -51500,-24010 -51940,-53300l0 -20 20 -54700 0 -20c1050,-28000 21650,-48980 49220,-51780l0 -20c1350,-100 2720,-140 4100,-140l106660 0c29330,0 53340,23980 53340,53330l0 0 -30 13340c0,7320 -6000,13330 -13320,13330l-26690 0c-7310,0 -13320,-5990 -13320,-13330l0 -13340 -106640 0 0 53330 106660 0c29170,220 52230,22860 53310,51940l0 20 0 54710 30 0c0,29350 -24010,53330 -53340,53330l-106660 0c-29350,0 -53340,-23980 -53340,-53330l0 0 0 -13340c0,-7340 5990,-13330 13320,-13330l26670 0c7340,0 13320,6010 13320,13330l0 13340z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

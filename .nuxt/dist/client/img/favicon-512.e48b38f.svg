@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512px" height="512px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 862300 862300"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+     <clipPath id="id0">
+      <path d="M10 0l862280 0 0 862300 -862280 0 0 -862300z"/>
+     </clipPath>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1863766003504">
+   <g>
+    <polygon fill="#577496" fill-opacity="0.250980" points="862250,215550 646700,0 431150,215550 50,215550 215600,0 431150,215550 "/>
+    <g clip-path="url(#id0)">
+     <image x="10" y="0" width="862280" height="862300" xlink:href="favicon-512_Images\favicon-512_ImgID1.png"/>
+    </g>
+    <polygon fill="#577496" points="862300,862300 0,862300 0,0 215560,215550 431110,0 646650,215550 862280,10 "/>
+   </g>
+   <path fill="white" d="M269390 592830l107790 0 0 -53900 -109180 -20c-29470,-1080 -52040,-24260 -52490,-53860l0 -20 20 -55280 0 -20c1060,-28300 21880,-49500 49740,-52330l0 -20c1370,-100 2750,-150 4140,-150l107790 0c29640,0 53900,24240 53900,53900l0 0 -20 13490c0,7350 -6110,13460 -13460,13460l-26970 0c-7350,0 -13470,-6050 -13470,-13460l0 -13490 -107770 0 0 53900 107790 0c29480,230 52780,23100 53880,52490l0 20 0 55290c0,37880 -34550,53900 -53880,53900l-107790 0c-29620,0 -53900,-24240 -53900,-53900l0 0 0 -13490c0,-7410 6050,-13460 13470,-13460l26940 0c7420,0 13470,6110 13470,13460l0 13490zm360540 -209610c11570,-9240 28430,-7350 37680,4220 9230,11570 7360,28440 -4210,37680l-101890 86860 101890 86860c11570,9240 13440,26110 4210,37680 -9250,11570 -26110,13460 -37680,4220l-127700 -107510c-1670,-1290 -3220,-2800 -4580,-4510 -9250,-11570 -7350,-28450 4220,-37700l128060 -107800z"/>
+  </g>
+ </g>
+</svg>

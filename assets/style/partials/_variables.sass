@@ -1,0 +1,209 @@
+$s-serif: 'Barlow', 'Roboto', 'calibri', sans-serif !default
+$serif: 'Georgia', 'Times New Roman', serif
+$condensed: 'barlow Semi Condensed', 'roboto Condensed', 'Barlow Condensed', 'arial narrow', sans-serif
+$slab: monospace
+$icon: 'skotch'
+$sketch: 'sketch'
+$small: monospace
+$comics: 'Caveat', 'Amatic SC', 'shadows into light two', cursive
+
+// Fix min/max width
+// @param {Width} $w for width
+@mixin setFixedWidth($w)
+    width: $w
+    min-width: $w
+    max-width: $w
+
+// Fix min/max height
+// @param {Height} $h for height
+@mixin setFixedHeight($h)
+    height: $h
+    min-height: $h
+    max-height: $h
+
+// Fix min/max height and width
+// @param {$dim)
+@mixin setSquare($dim)
+    width: $dim
+    height: $dim
+
+// Fix min/max height and width
+// @param {$wi, he)
+@mixin setBox($wi, $he)
+    width: $wi
+    min-width: $wi
+    max-width: $wi
+    height: $he
+    min-height: $he
+    max-height: $he
+
+// Fix min/max height and width and flex center
+
+@mixin setIcon($dime)
+    width: $dime
+    height: $dime
+    display: flex
+    align-items: center
+    justify-content: center
+
+// Fix min/max height and width and flex center
+
+@mixin setActionIcon($dimen)
+    width: $dimen
+    height: $dimen
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+
+// Fix min/max height and width for flex box
+
+@mixin setFlexBox($wi, $he, $v-c, $h-c, $dir)
+    width: $wi
+    min-width: $wi
+    max-width: $wi
+    height: $he
+    min-height: $he
+    max-height: $he
+    display: flex
+    align-items: $v-c
+    justify-content: $h-c
+    flex-direction: $dir
+
+// Flex
+// Flex box with vertical alignement
+=flexVC
+    display: flex
+    align-items: center
+
+//flex box with vertical & horizontal alignement
+=flexHVC
+    display: flex
+    align-items: center
+    justify-content: center
+
+//Scrollbar
+//Used to custom the scrollbar.
+=custom8pxScrollBar
+    overflow-x: hidden
+    overflow-y: auto
+    &::-webkit-scrollbar
+        width: 8px
+    &::-webkit-scrollbar-track
+        background-color: $c-g235
+        -webkit-box-shadow: inset 0 0 6px rgba(50, 50, 50, 0.2)
+        -webkit-border-radius: 0
+        border-radius: 0
+        margin: 0 0
+    &::-webkit-scrollbar-thumb
+        -webkit-border-radius: 2px
+        border-radius: 2px
+        background: $c-g170
+
+//Scrollbar
+//Used to custom the scrollbar.
+=custom8pxScrollBarX
+    overflow-x: auto
+    overflow-y: hidden
+    &::-webkit-scrollbar
+        height: 8px
+    &::-webkit-scrollbar-track
+        background-color: $c-g235
+        -webkit-box-shadow: inset 0 0 6px rgba(50, 50, 50, 0.2)
+        -webkit-border-radius: 0
+        border-radius: 0
+        margin: 0 0
+    &::-webkit-scrollbar-thumb
+        -webkit-border-radius: 2px
+        border-radius: 2px
+        background: $c-blue-lt
+
+=customNoScrollBar
+    overflow-x: hidden
+    overflow-y: auto
+    &::-webkit-scrollbar
+        width: 0px
+
+//animate-top offset
+
+@mixin setTopAnimation($margin)
+    animation: animate-top-mixin 0.15s
+    @keyframes animate-top-mixin
+        from
+            margin-top: $margin
+        to
+            margin-top: 0
+
+@mixin setBottomAnimation($bt-margin-start, $bt-margin-end)
+    animation: animate-bottom-mixin 0.15s
+    @keyframes animate-bottom-mixin
+        from
+            margin-bottom: $bt-margin-start
+        to
+            margin-bottom: $bt-margin-end
+
+//animate-right start end
+
+@mixin setRightAnimation($mr-start, $mr-end)
+    animation: animate-right-mixin 0.15s
+    @keyframes animate-right-mixin
+        from
+            margin-right: $mr-start
+        to
+            margin-right: $mr-end
+
+//animate-left start end
+
+@mixin setLeftAnimation($ml-start, $ml-end)
+    animation: animate-left-mixin 0.15s
+    @keyframes animate-left-mixin
+        from
+            margin-left: $ml-start
+        to
+            margin-left: $ml-end
+
+@mixin setLeftAnimationFixed($ml-start-fixed, $ml-end-fixed)
+    animation: animate-left-mixin 0.15s
+    @keyframes animate-left-mixin
+        from
+            left: $ml-start-fixed
+        to
+            left: $ml-end-fixed
+
+//quick-modal-container
+
+@mixin modalContainer
+    background-color: $tg-07
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    +setSquare(100%)
+    +flexHVC
+    z-index: 9999
+    animation: appear 0.25s
+
+//quick-modal-box
+
+@mixin modalContent
+    background-color: $c-white
+    border-radius: 4px
+    box-shadow: 0 0 2px 4px $t-01
+    min-width: 240px
+    width: 480px
+    max-width: calc(100% - 16px)
+    min-height: 240px
+    max-height: calc(100% - 16px)
+    position: relative
+    padding: 24px 16px 16px
+    +setTopAnimation(-100vh)
+    .close
+        +setActionIcon(24px)
+        position: absolute
+        top: 8px
+        right: 8px
+        font-size: 16px
+        border-radius: 4px
+        &:hover
+            background-color: $tg-01

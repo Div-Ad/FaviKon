@@ -1,0 +1,245 @@
+@import "variables"
+@import "variables_colors"
+
+html
+    box-sizing: border-box
+    -webkit-font-smoothing: antialiased
+    -webkit-text-size-adjust: 100%
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    overflow-x: hidden
+    background: $c-white
+    +setSquare(100%)
+    font-size: 16px
+    font-family: $s-serif
+
+*, *::before, *::after
+    box-sizing: inherit
+
+a, button
+    transition: all 0.15s
+    //- will smooth-animate "everything". Extremely useful
+
+body
+    margin: auto
+    position: relative
+    font-weight: 300
+    color: $c-g50
+    background-color: $c-theme
+    line-height: 1.15em
+    +setSquare(100%)
+
+    
+//- Headlines
+
+h1, h2, h3, h4, h5
+    font-family: $condensed
+    line-height: 1.15em
+    &::first-letter
+        text-transform: capitalize
+
+h1
+    font-size: 48px
+    text-transform: uppercase
+    font-weight: 400
+    margin-bottom: 24px
+    text-align: center
+    
+
+h2
+    font-size: 32px
+    font-weight: 300
+    margin: 32px 0 16px
+    color: $c-i-green
+
+h3
+    font-size: 24px
+    font-weight: 300
+    margin: 24px 0
+    color: $c-bnf-red
+
+h4
+    font-size: 16px
+    font-weight: 300
+    color: $c-i-blue-2
+    text-transform: uppercase
+
+p, li
+    margin-top: 0
+    margin-bottom: 8px
+    font-weight: 300
+    line-height: 1.5em
+
+a, a:hover
+    text-decoration: none
+    color: inherit
+
+a
+    color: white
+    display: block
+    text-align: left
+    &:before
+        content: "➜ "
+        padding-left: 4px
+        
+    
+    &.space
+        margin-bottom: 12px
+    &.ib
+        display: inline-block
+        color: $c-bnf-red
+h3.red
+    margin-top: 32px
+    color: $c-i-red
+.red
+    color: $c-bnf-red
+small
+    font-size: 80%
+
+sub, sup
+    position: relative
+    font-size: 75%
+    line-height: 0
+    vertical-align: baseline
+
+sub
+    bottom: -.25em
+
+sup
+    top: -.5em
+
+div, span, img, ul, li, a, i, p, strong, button
+    &:focus
+        outline: -webkit-focus-ring-color auto 0
+        outline-color: -webkit-focus-ring-color
+        outline-style: none
+
+button
+    border: none
+    background-color: transparent
+    cursor: pointer
+
+.date
+    font-family: $small
+    font-size: 0.75em
+
+code
+    background-color: rgba(0,0,0,0.1)
+    box-shadow: inset 0 0 16px 0 rgba(0,0,0,0.2)
+    border-radius: 2px
+    padding: 24px
+    font-size: 13px
+    width: 100%
+    display: block
+    margin: 16px 0
+    line-height: 24px
+    word-break: break-word
+    .p24
+        padding-left: 24px
+        color: $c-i-green
+    .p12
+        padding-left: 12px
+    span
+        margin-bottom: 16px
+        color: $c-white
+    
+code
+    font-family: $small
+    span
+        display: block
+
+blockquote
+    font-style: italic
+    border-left: 4px solid rgba(255,255,255,0.1)
+    margin-left: 0
+    padding-left: 16px
+img
+    margin-right: 8px
+    
+.intro
+    width: 30%
+.rounded
+    border-radius: 30%
+.flexVC
+    display: flex
+    align-items: center
+.justifySA
+    justify-content: space-around
+.mb32
+    margin-bottom: 32px
+.mt32
+    margin-top: 32px
+
+.preambule
+    font-weight: 500
+    padding: 12px
+    border: 4px solid rgba(255,255,255,0.1)
+
+    
+#__nuxt, #__layout
+    +setSquare(100%)
+    
+#faviKon
+    text-align: left
+    background-color: darken($c-bnf, 7%)
+    color: white
+    flex-direction: column
+    padding: 24px
+    .content
+        width: 100%
+        max-width: 980px
+        margin: auto
+.go-up
+    transform: rotate(-90deg)
+    position: fixed
+    height: 48px
+    width: 48px
+    +flexHVC
+    bottom: 0
+    right: 0
+    border-radius: 50%
+    background-color: $c-bnf
+    margin: 16px
+    a:before
+        color: $c-i-green
+        margin: 0
+        padding: 0
+        font-size: 24px
+.tests
+    width: fit-content
+    box-shadow: inset 0 0 16px 0 rgba(0,0,0,0.1)
+    margin-top: 32px
+    background-color: $c-white
+    color: $c-g80
+    padding: 24px 24px
+    border-radius: 4px
+    h2
+        margin-top: 0
+        color: $c-i-blue
+        font-family: $condensed
+        text-transform: uppercase
+    a
+        margin: 0 4px
+        display: inline-block
+        color: $c-bnf-red
+    img
+        margin-right: 8px
+        max-width: calc(25% - 8px)
+        &.initial
+            max-width: 100%
+    h4:first-of-type
+        margin-top: 0
+    &#Test
+        font-size: 0.95em
+        
+        li
+            line-height: 1.15em
+            margin-bottom: 4px
+        h4
+            color: $c-g80
+            border-left: 2px solid rgba(0,0,0,0.1)
+            padding-left: 12px
+        
+            
+.px16
+    width: 16px
+    height: 16px

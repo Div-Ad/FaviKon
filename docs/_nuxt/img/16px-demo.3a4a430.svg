@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16px" height="16px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 3640 3640"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+    <clipPath id="id0">
+     <path d="M0 0l3640 0 0 3640 -3640 0 0 -3640z"/>
+    </clipPath>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1863716575760">
+   <polygon fill="#49627F" fill-opacity="0.250980" points="3640,910 2730,0 1820,910 0,910 910,0 1820,910 "/>
+   <g clip-path="url(#id0)">
+    <image x="0" y="0" width="3640" height="3640" xlink:href="16px-demo_Images\16px-demo_ImgID1.png"/>
+   </g>
+   <polygon fill="#577496" points="3640,3640 0,3640 0,0 910,910 1820,0 2730,910 3640,0 "/>
+   <path fill="white" d="M1140 2500l450 0 0 -230 -460 0c-120,0 -220,-100 -220,-220l0 0 0 -240 0 0c0,-120 90,-210 210,-220l0 0c0,0 10,0 20,0l450 0c130,0 230,100 230,230l0 0 0 60c0,30 -30,50 -60,50l-110 0c-30,0 -60,-20 -60,-50l0 -60 -450 0 0 230 450 0c130,0 220,90 230,220l0 0 0 230c0,160 -150,230 -230,230l-450 0c-130,0 -230,-100 -230,-230l0 0 0 -60c0,-30 20,-50 60,-50l110 0c30,0 60,20 60,50l0 60zm1520 -880c50,-40 120,-30 160,10 40,50 30,120 -20,160l-430 370 430 370c50,40 60,110 20,160 -40,40 -110,50 -160,10l-540 -450c-10,-10 -20,-10 -20,-20 -40,-50 -30,-120 20,-160l540 -450z"/>
+  </g>
+ </g>
+</svg>
